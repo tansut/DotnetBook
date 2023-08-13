@@ -1,0 +1,9 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DotNetTurk.Exceptions.vbproj.GenerateResource.Cache
+bin\Debug\DotNetTurk.Exceptions.dll
+bin\Debug\DotNetTurk.Exceptions.pdb
+bin\Debug\DotNetTurk.Exceptions.xml
+obj\Debug\DotNetTurk.Exceptions.dll
+obj\Debug\DotNetTurk.Exceptions.xml
+obj\Debug\DotNetTurk.Exceptions.pdb
+obj\Debug\Resources.resources

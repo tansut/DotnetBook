@@ -1,0 +1,29 @@
+Projeyi derleyebilmek için;
+
+-  Visual Studio SP1 yüklenmiþ olmalýdýr.
+-  ASP.NET AJAX Extensions yüklenmiþ olmalýdýr. AJAX Extensions DVD içerisinde \Yardýmcý Araçlar\Ajax dizininde bulunmaktadýr.
+
+Proje veritabaný baðlantýsýný yapmak için;
+
+-  SQL Server Express kurulumu yapýlmalýdýr. SQL Server Express DVD içerisinde \Veri Tabanlarý\Sql Server Express dizini içerisinde bulunmaktadýr.
+-  ÝþKatmaný isimli proje içerisinde bulunan PPTConnectionString isimli uygulama ayarý projeyi kopyaladýðýnýz dizinde Veri Tabaný\ppt.mdf'i belirtmelidir.
+
+Örnek projeye yönetici olarak giriþ yapmak için kullanýcý adý ve þifresi olarak admin kullanabilirsiniz.
+
+Yönetici olarak giriþ yapýldýktan sonra solda oluþan menüler yardýmýyla yeni kullanýcý ve ürünler tanýmlayabilirsiniz.
+
+Proje kapsamýnda;
+
+-  Kimlik doðrulama
+-  Konfigürasyon Yönetimi
+-  AJAX ve AJAX ControlKit Kullanýmý
+-  Ýstisna Yönetimi
+-  Veri Baðlama
+-  ASP.NET Forms Kimlik Doðrulama
+-  Yetki yönetimi
+-  SiteMap ve TreeView Kontrolleri
+-  ASP.NET kontrolleri
+
+ve genel tasarým yaklaþýmlarý gösterilmiþtir.
+
+2007-2008 www.profesyonelpogramlama.net 

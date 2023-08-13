@@ -1,0 +1,5 @@
+bin\Debug\DotnetKitabı.Ortakİşlemler.dll
+bin\Debug\DotnetKitabı.Ortakİşlemler.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DotnetKitabı.Ortakİşlemler.dll
+obj\Debug\DotnetKitabı.Ortakİşlemler.pdb

@@ -1,0 +1,11 @@
+bin\Debug\DotNetTurk.Sample.Windows.exe.config
+bin\Debug\DotNetTurk.Sample.Windows.exe
+bin\Debug\DotNetTurk.Sample.Windows.pdb
+bin\Debug\DotNetTurk.Exceptions.dll
+bin\Debug\DotNetTurk.Exceptions.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DotNetTurk.Sample.Windows.Properties.Resources.resources
+obj\Debug\DotNetTurk.Sample.Windows.csproj.GenerateResource.Cache
+obj\Debug\DotNetTurk.Sample.Windows.exe
+obj\Debug\DotNetTurk.Sample.Windows.pdb
+obj\Debug\DotNetTurk.Sample.Windows.Form1.resources

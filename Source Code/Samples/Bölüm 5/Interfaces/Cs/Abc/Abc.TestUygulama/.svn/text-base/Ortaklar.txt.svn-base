@@ -1,0 +1,6 @@
+# Sýnýf adý, Assembly Adý
+# Belirtilen Assembly dosyalarýnýn exe'nin bulunduðu klasörde veya 
+# GAC içerisinde bulunmasý gerekmektedir.
+ADeposu.KitapEntegrasyon,ADeposu
+Xyz.Sorgu,Xyz
+Entegrasyonlar.Abc.KitapSorgu,C

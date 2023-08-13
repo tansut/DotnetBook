@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="default.aspx" title="Ana Sayfa"  description="">
+        <siteMapNode url="urunler.aspx" title="Ürünler"  description="" />
+        <siteMapNode url="sepet.aspx" title="Alışveriş Sepeti"  description="" />
+        <siteMapNode url="urunyonetim.aspx" title="Ürün Yönetimi"  description="" />
+        <siteMapNode url="kullaniciyonetim.aspx" title="Kullanıcı Yönetimi"  description="" />
+
+    </siteMapNode>
+</siteMap>

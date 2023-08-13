@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{1A430A61-7DD3-44D4-9409-F736A2FD604F}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "İşKatmanı", "İşKatmanı\İşKatmanı.csproj", "{AEBF14DA-899A-4CC0-BF6F-EDA6371241F2}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kütüphane", "Kütüphane\Kütüphane.csproj", "{BCCE93AC-3DD8-4019-9149-4F3CD14AA13A}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Yardımcı Dosyalar", "Yardımcı Dosyalar", "{48C8B6FF-5752-47A6-AEDB-47019D844E02}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		Yardımcı Dosyalar\benioku.txt = Yardımcı Dosyalar\benioku.txt
+		Yardımcı Dosyalar\OrtakAssemblyBilgileri.cs = Yardımcı Dosyalar\OrtakAssemblyBilgileri.cs
+		Yardımcı Dosyalar\Ppt.snk = Yardımcı Dosyalar\Ppt.snk
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Veri Tabanı", "Veri Tabanı", "{D0B139D6-1BC8-413F-B5FA-4A4328C749EB}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		Veri Tabanı\PPT.mdf = Veri Tabanı\PPT.mdf
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Controls", "Web.Controls\Web.Controls.csproj", "{93786C03-6113-4037-99E1-08DC5E21A9B5}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ajax Control ToolKit", "Ajax Control ToolKit", "{A4A4F389-AC7F-4327-84CF-E35CDA29D587}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		Ajax Control ToolKit\AjaxControlToolkit.dll = Ajax Control ToolKit\AjaxControlToolkit.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A430A61-7DD3-44D4-9409-F736A2FD604F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A430A61-7DD3-44D4-9409-F736A2FD604F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A430A61-7DD3-44D4-9409-F736A2FD604F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A430A61-7DD3-44D4-9409-F736A2FD604F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEBF14DA-899A-4CC0-BF6F-EDA6371241F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEBF14DA-899A-4CC0-BF6F-EDA6371241F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEBF14DA-899A-4CC0-BF6F-EDA6371241F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEBF14DA-899A-4CC0-BF6F-EDA6371241F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCCE93AC-3DD8-4019-9149-4F3CD14AA13A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCCE93AC-3DD8-4019-9149-4F3CD14AA13A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCCE93AC-3DD8-4019-9149-4F3CD14AA13A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCCE93AC-3DD8-4019-9149-4F3CD14AA13A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93786C03-6113-4037-99E1-08DC5E21A9B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93786C03-6113-4037-99E1-08DC5E21A9B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93786C03-6113-4037-99E1-08DC5E21A9B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93786C03-6113-4037-99E1-08DC5E21A9B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

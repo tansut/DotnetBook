@@ -1,0 +1,7 @@
+bin\Debug\ADeposu.dll
+bin\Debug\ADeposu.pdb
+bin\Debug\Abc.Tipler.dll
+bin\Debug\Abc.Tipler.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ADeposu.dll
+obj\Debug\ADeposu.pdb

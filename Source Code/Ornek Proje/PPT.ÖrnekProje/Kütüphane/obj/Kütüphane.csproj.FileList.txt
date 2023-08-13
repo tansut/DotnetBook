@@ -1,0 +1,10 @@
+bin\Debug\Kütüphane.dll
+bin\Debug\Kütüphane.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Kütüphane.dll
+obj\Debug\Kütüphane.pdb
+bin\Release\Kütüphane.dll
+bin\Release\Kütüphane.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\Kütüphane.dll
+obj\Release\Kütüphane.pdb

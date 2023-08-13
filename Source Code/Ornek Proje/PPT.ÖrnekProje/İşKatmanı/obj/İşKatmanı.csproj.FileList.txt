@@ -1,0 +1,8 @@
+bin\Debug\İşKatmanı.dll.config
+bin\Debug\İşKatmanı.dll
+bin\Debug\İşKatmanı.pdb
+bin\Debug\Kütüphane.dll
+bin\Debug\Kütüphane.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\İşKatmanı.dll
+obj\Debug\İşKatmanı.pdb

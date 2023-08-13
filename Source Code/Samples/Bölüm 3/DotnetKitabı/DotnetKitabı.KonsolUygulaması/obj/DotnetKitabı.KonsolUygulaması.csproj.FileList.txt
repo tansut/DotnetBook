@@ -1,0 +1,7 @@
+bin\Debug\DotnetKitabı.KonsolUygulaması.exe
+bin\Debug\DotnetKitabı.KonsolUygulaması.pdb
+bin\Debug\DotnetKitabı.Ortakİşlemler.dll
+bin\Debug\DotnetKitabı.Ortakİşlemler.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DotnetKitabı.KonsolUygulaması.exe
+obj\Debug\DotnetKitabı.KonsolUygulaması.pdb

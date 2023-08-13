@@ -1,0 +1,45 @@
+Create Procedure [EkleKisi]
+( @Id int output, @TcKimlikNo bigint, @Ad nvarchar(25), @Soyad nvarchar(25),
+  @DogumTarih datetime
+) AS INSERT INTO [Kisi] ([TcKimlikNo], [Ad], [Soyad], [DogumTarih])
+  VALUES(@TcKimlikNo, @Ad, @Soyad, @DogumTarih)
+SELECT @Id = SCOPE_IDENTITY();
+
+Create Procedure [GuncelleKisi]
+( @Id int, @TcKimlikNo bigint, @Ad nvarchar(25), @Soyad nvarchar(25),
+  @DogumTarih datetime
+) AS UPDATE [Kisi] SET [TcKimlikNo] = @TcKimlikNo,
+                       [Ad] = @Ad,
+                       [Soyad] = @Soyad,
+                       [DogumTarih] = @DogumTarih
+WHERE [Id] = @Id
+
+Create Procedure [SilKisi]
+( @Id int )
+AS DELETE FROM [Kisi] WHERE [Id] = @Id
+Kod 353, SilKisi Depolanmýþ Prosedür Ýçeriði
+
+Create Procedure [OkuKisi]
+( @Id int )
+AS SELECT * FROM [Kisi] WHERE [Id] = @Id
+
+Create Procedure [AraKisi]
+( @Ad nvarchar(25), @Soyad nvarchar(25), @ KayitSirasi nvarchar(15) )
+AS
+BEGIN
+  SELECT [Id], [TcKimlikNo], [Ad], [Soyad], [DogumTarih] 
+  FROM [Kisi]
+  WHERE  (@Ad IS NULL OR [Ad] LIKE @Ad +'%')  AND 
+       (@Soyad IS NULL OR [Soyad] LIKE @Soyad +'%') 
+  ORDER BY CASE @KayitSirasi WHEN 'Ad' THEN Ad END, 
+           CASE @ KayitSirasi WHEN 'Soyad' THEN Soyad END
+ END
+
+Create Procedure [GetirKisiSayisi]
+( @Ad nvarchar(50), @Soyad nvarchar(50) )
+AS
+BEGIN
+  SELECT count(*) FROM [Kisi]
+  WHERE  (@Ad IS NULL OR [Ad] LIKE @Ad +'%')  AND 
+         (@Soyad IS NULL OR [Soyad] LIKE @Soyad +'%') 
+END

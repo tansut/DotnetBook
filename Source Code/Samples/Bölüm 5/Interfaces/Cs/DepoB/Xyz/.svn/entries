@@ -1,0 +1,49 @@
+8
+
+dir
+103
+file:///d:/projects/docrepository/Source%20Code/Samples/B%C3%B6l%C3%BCm%205/Interfaces/Cs/DepoB/Xyz
+file:///d:/projects/docrepository
+
+
+
+2006-11-16T19:15:06.921875Z
+34
+Tansu
+
+
+svn:special svn:externals svn:needs-lock
+
+bin
+dir
+
+Xyz.csproj
+file
+
+
+
+
+2006-11-14T20:21:56.546875Z
+541d27f73851349e8c67d51dd4ab1369
+2006-11-16T19:15:06.921875Z
+34
+Tansu
+
+obj
+dir
+
+Properties
+dir
+
+xyz.cs
+file
+
+
+
+
+2006-11-14T20:22:22.687500Z
+6522e9107485e3b8c2d9c78db818990d
+2006-11-16T19:15:06.921875Z
+34
+Tansu
+

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPT.KitapAramaSistemi", "PPT.KitapAramaSistemi\PPT.KitapAramaSistemi.csproj", "{10331596-F80B-4C07-8E79-6B6FB6C69927}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Kur", "Kur\Kur.vdproj", "{6E2EB2B7-852A-4AF3-B2D4-022340F46896}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ads", "Ads", "{532E2F9D-1DDC-4250-B8B8-D437CFC7F96C}"
+	ProjectSection(SolutionItems) = preProject
+		Ads\ace32.dll = Ads\ace32.dll
+		Ads\adsloc32.dll = Ads\adsloc32.dll
+		Ads\adslocal.cfg = Ads\adslocal.cfg
+		Ads\Advantage.Data.Provider.dll = Ads\Advantage.Data.Provider.dll
+		Ads\ansi.chr = Ads\ansi.chr
+		Ads\axcws32.dll = Ads\axcws32.dll
+		Ads\extend.chr = Ads\extend.chr
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10331596-F80B-4C07-8E79-6B6FB6C69927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10331596-F80B-4C07-8E79-6B6FB6C69927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10331596-F80B-4C07-8E79-6B6FB6C69927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10331596-F80B-4C07-8E79-6B6FB6C69927}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E2EB2B7-852A-4AF3-B2D4-022340F46896}.Debug|Any CPU.ActiveCfg = Debug
+		{6E2EB2B7-852A-4AF3-B2D4-022340F46896}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
