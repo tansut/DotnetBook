@@ -1,3 +1,3 @@
 # DotnetBook
 
-Released in 2007.
+Published in 2007.
